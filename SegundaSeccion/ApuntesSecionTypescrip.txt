@@ -1,0 +1,11 @@
+typescrip --> superset de javascrip
+tipaado estricto y flexible 
+tipado estricto nos ayuda a saber como funcionan las cosas
+@Decodadores diferencia cada tipo de clase a un objeto especial
+angular usa typescrip nos permites la inyeccion de dependencias para acceder a clases rapidamente
+
+
+mitos y realidades
+angular libera nuevas versiones cada sei meses versiones nueves
+las aplicaciones de angular son pesadas F
+Angular no es SEO Friendly F una vez cargado ya tienes todo listo
