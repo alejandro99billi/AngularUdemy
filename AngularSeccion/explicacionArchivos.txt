@@ -1,0 +1,20 @@
+generalmente los .json son configuraciones
+tslint.json --> reglas para programar en tipescrip 
+tsconfig.json --> como quiere que se traduzca a javascrip
+ts.confiig.spec.json --> estiende il tsconfig, esta relacionado a las pruebas
+o pruebas unitarias
+tsconfig.app.json --> estiende de la configuracion eìy esta enfocado en la aplicacion
+readme--> habal de como se crea la aplicacion
+package.json --> no agregar nada manualmente lo hacemos a traves de comandos
+package-lock --> como se construyo todo
+karma.config 
+angular.json-->carga recursos estaticos como los assets
+gitignore-->archivo que no quiero que git le de seguimento
+editor.config -->reglas para el tipeo de typescrip
+
+contenido de la carpeta src 
+assets --> RECURSOS estaticos en nuestra aplicacion
+enviroment.ts -->para producion y desarrollo donde defino las variables
+index.html la pagina general
+main.ts --> dice en el ambiente donde esta corriendo 
+styles.css --> estilos generales que se aplican a toda la aplicacion
