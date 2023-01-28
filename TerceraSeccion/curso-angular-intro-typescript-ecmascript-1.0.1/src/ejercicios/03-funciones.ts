@@ -42,3 +42,34 @@ const nuevoPersonaje: PersonajeLOR = {
 }
 
 curar(nuevoPersonaje,20)
+
+//-----------------------------------------------
+//ejercicio
+
+//no usar objetos anidados dentro de una interfaz
+interface Superhero{
+    nombre: string,
+    edad:30,
+    direccion:Address,
+    mostrarDirecion:()=>string
+}
+interface Address{
+    calle : string,
+    pais:string,
+    ciudad:string
+}
+const superHeroe:Superhero ={
+    nombre:'Spiderman',
+    edad:30,
+    direccion:{
+        calle : 'Main st',
+        pais:'USA',
+        ciudad:'NY' 
+    },
+    mostrarDirecion(){
+return this.nombre + '' + this.direccion.ciudad + '' + this.direccion.pais;
+    }
+}
+
+const direccion = superHeroe.mostrarDirecion();
+console.log(direccion)
