@@ -1,1 +1,6 @@
+Notas de introduccion Angular
 Nueva seccion de angular
+Serivicios de angular son singleton 
+tiene componentes y modulos que usan Serivicios
+Directivas --> componentes , estrucutarales y de atributos
+Modulos--> permite agrupar componente, tutas, directivas y Serivicios
