@@ -9,3 +9,7 @@ imp + tab me genera la stringa di import
 
 cannot get / --> error grave de angular no se puede renderizar
 providers --> son servicios espicificos  a un modulo 
+
+Separacion de directorios
+para cada componente viene creada una directory
+caundo se crea un componente deve estar importado en su modulo 
