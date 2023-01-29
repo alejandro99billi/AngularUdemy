@@ -25,3 +25,17 @@ ng g c path/nomeComponente
 
 *ngFor --> si no se cuantos elementos de de un arreglo 
 manipulamos el dom de manera facil con directivas  estructurales
+
+<ol *ngFor="let heore of heroes; let i = index">
+  {{
+    i + 1
+  }}
+  -
+  {{
+    heore
+  }}
+</ol>
+------------------------------------------
+*ngIf --> <div *ngIf="heroeCancelado !== ''">
+
+ngTemplate usa una referencia lcal que inicia con # la usamos con el ngElse para despues encotrar la condicion y su comportamiento
