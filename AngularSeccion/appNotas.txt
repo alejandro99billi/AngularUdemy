@@ -13,3 +13,4 @@ providers --> son servicios espicificos  a un modulo
 Separacion de directorios
 para cada componente viene creada una directory
 caundo se crea un componente deve estar importado en su modulo 
+concepto de one way data binding --> enlazado d euna sola via
