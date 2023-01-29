@@ -14,3 +14,14 @@ Separacion de directorios
 para cada componente viene creada una directory
 caundo se crea un componente deve estar importado en su modulo 
 concepto de one way data binding --> enlazado d euna sola via
+
+como crear un componente  manualmente 
+ng generate c heroes/listado
+
+ng g c path/nomeComponente
+
+
+
+
+*ngFor --> si no se cuantos elementos de de un arreglo 
+manipulamos el dom de manera facil con directivas  estructurales

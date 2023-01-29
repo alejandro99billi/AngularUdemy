@@ -7,6 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListadoComponent implements OnInit {
 
+  heroeCancelado:string='';
+  heroes: string[]= ['spiderman', 'thor','ant-mant'] 
+  borrarHeroe():void{
+   this.heroeCancelado =  this.heroes.shift() || '';
+  }
   constructor() { 
     console.log('constructor')
   }
