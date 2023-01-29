@@ -38,4 +38,18 @@ manipulamos el dom de manera facil con directivas  estructurales
 ------------------------------------------
 *ngIf --> <div *ngIf="heroeCancelado !== ''">
 
-ngTemplate usa una referencia lcal que inicia con # la usamos con el ngElse para despues encotrar la condicion y su comportamiento
+ngTemplate usa una referencia lcal que inicia con # la usamos con el ngElse para despues encotrar la 
+condicion y su comportamiento
+
+
+-----------------------------
+
+Modulos  --> No definimos reduncias dentro de los Modulos
+nos ayudana agrupar componentes que tienen sentido entre si 
+para expandir la funcionalidad
+encapsulan y nos ayudan con lazy low
+que es cuando se cargan los elementos cuando estan siendo demandados
+cuando uso un modulo en commun solo me basta agregarlo  ac
+app module
+
+Commun Module-->
