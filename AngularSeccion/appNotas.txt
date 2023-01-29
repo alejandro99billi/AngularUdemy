@@ -76,4 +76,10 @@ crear un release tag -> codigo tal cual esta en el momento
  -------------------------
  git ignore no se suben los modules de NgModule xq lo importante esta en el package.json
  y solo necesito hace un npm install
- 
+
+--------------------------------------
+modulo dragon ball -->ng g m dbz
+
+ng g c dbz/mainPage  -> me crea la carpeta ( con los componentes main-page) devo usar el camelCase para hacaaerlo asi
+
+ng g c dbz/mainPag --skipTest
