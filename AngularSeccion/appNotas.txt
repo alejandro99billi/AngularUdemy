@@ -52,4 +52,28 @@ que es cuando se cargan los elementos cuando estan siendo demandados
 cuando uso un modulo en commun solo me basta agregarlo  ac
 app module
 
-Commun Module-->
+Commun Module-->nos ayuda a usar los templates como el ngIf
+--------------------------------------------
+Github como subir un proyecto
+1) creamos un nuevo repositorio
+2)usamos los comandos de cuando creamos nuestro repositorio
+3)git init
+4)git add . -->toma todos lo cambios
+5)git commit -m  "primer commit"
+6)git git remote add origin url
+gir branch -M main 
+7)git push -u origin main
+--------------------------------------------------------
+crear un release tag -> codigo tal cual esta en el momento
+ 1)git tag -a v0.1.0 "fin seccion 4"
+ 2)git tag
+ 3) para subir el tag a Github :
+ git push --tags
+ nos muestra nuestro tag 
+ debemos editar el tag para publicarlo 
+ y nos muestra nuestro codigo hasta ese momento
+
+ -------------------------
+ git ignore no se suben los modules de NgModule xq lo importante esta en el package.json
+ y solo necesito hace un npm install
+ 
