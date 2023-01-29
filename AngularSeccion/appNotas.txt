@@ -1,0 +1,11 @@
+para pasa codgio de html a javascrip uso {{}}
+luego puedo usar un (click) para dar codigo de un evento por ejemplo un button
+el template  es la parte del html 
+no se aconseja meter tanta logica en el html
+
+como crear un  componente manualmente
+se agregan mas piezas al componente
+imp + tab me genera la stringa di import
+
+cannot get / --> error grave de angular no se puede renderizar
+providers --> son servicios espicificos  a un modulo 
