@@ -3,20 +3,20 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ContadorIncreibleComponent } from './contador/contador-increible.component';
-import { HeroeComponent } from './heroes/heroe/heroe.component';
-import { ListadoComponent } from './heroes/heroes/listado/listado.component';
+import { ContadorModule } from './contador/contador.module';
+import { HeroesModule } from './heroes/heores.module';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ContadorIncreibleComponent,
-    HeroeComponent,
-    ListadoComponent
+
+    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HeroesModule,
+    ContadorModule
   ],
   providers: [],
   bootstrap: [AppComponent]
