@@ -107,3 +107,8 @@ puedo exportar todas las interfazes que me sirvan
 output un componente hijo que quiere emitir al padre
 eventEmitter --> en de tipo generics
 output sirve para emitir eventos
+
+--------------
+como usar el debugger 
+
+el visual studio f5 --> google app cambiarle el puerto y  meter 4200 para inciarl el debug

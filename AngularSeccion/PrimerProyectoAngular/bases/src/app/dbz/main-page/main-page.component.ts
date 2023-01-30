@@ -21,6 +21,7 @@ personajes: Personaje[]=[
 ]
 
 agregarNuevoPersonaje(argumento: Personaje ){
+ // debugger; palabrra reservada de javascrip para usar el debbuger
   console.log('Main page component')
   console.log(argumento)
   this.personajes.push(argumento)
