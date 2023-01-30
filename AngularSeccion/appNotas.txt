@@ -95,3 +95,11 @@ dentro de un tag html
 [] --> para establecer alguna propiedad a este objeto
 el ngModel lo podemos usar para emitir y recibir eventos
 el | sirve para decir que tipo de dato quiero que grafique osea la informazion visual
+
+-------------
+
+se aconsejan usar componentes reutilizables
+
+como pasar componentes de un padre a un hijo
+con el @input lo usamos como atributo en el componente hijo
+puedo exportar todas las interfazes que me sirvan
