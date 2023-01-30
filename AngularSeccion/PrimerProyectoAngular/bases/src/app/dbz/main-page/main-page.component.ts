@@ -11,8 +11,8 @@ import { Personaje } from '../interfaces/interfaces';
 })
 export class MainPageComponent implements OnInit {
 nuevo: Personaje ={
-  nombre: '',
-  poder: 0
+  nombre: 'Maestro Roshi',
+  poder: 1000
 }
 
 personajes: Personaje[]=[
@@ -20,7 +20,11 @@ personajes: Personaje[]=[
   {nombre:'vegeta',poder:18500}
 ]
 
- 
+agregarNuevoPersonaje(argumento: Personaje ){
+  console.log('Main page component')
+  console.log(argumento)
+  this.personajes.push(argumento)
+}
  
   constructor() { }
 

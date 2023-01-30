@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { Personaje } from '../interfaces/interfaces';
 
 @Component({
@@ -7,22 +7,22 @@ import { Personaje } from '../interfaces/interfaces';
   styleUrls: ['./agregar.component.scss']
 })
 export class AgregarComponent implements OnInit {
-  nuevo: Personaje ={
+  @Input() nuevo: Personaje ={
     nombre: '',
     poder: 0
   }
   
- @Input() personajes: Personaje[]=[
-    {nombre:'goku',poder:20000},
-    {nombre:'vegeta',poder:18500}
-  ]
+  @Output() onNuevoPersonaje: EventEmitter<Personaje> = new EventEmitter(); 
+ 
+ 
   
   agregar(){
     // event.preventDefault();
        if(this.nuevo.nombre.trim().length === 0){
       return
        }
-       this.personajes.push(this.nuevo)
+       
+       this.onNuevoPersonaje.emit(this.nuevo)
        this.nuevo={
         nombre:'',
         poder:0
