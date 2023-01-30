@@ -83,3 +83,15 @@ modulo dragon ball -->ng g m dbz
 ng g c dbz/mainPage  -> me crea la carpeta ( con los componentes main-page) devo usar el camelCase para hacaaerlo asi
 
 ng g c dbz/mainPag --skipTest
+
+---------
+los parentises dentro de un elemento htnml quiere decir que esta escuhando
+ngForn para usar formularios
+
+las llaves cuadradras [] dentro de un componente html se usa para puntar a una propiedad
+
+dentro de un tag html
+() --> para escuhar o emitir eventos
+[] --> para establecer alguna propiedad a este objeto
+el ngModel lo podemos usar para emitir y recibir eventos
+el | sirve para decir que tipo de dato quiero que grafique osea la informazion visual
