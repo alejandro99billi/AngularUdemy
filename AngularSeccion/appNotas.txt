@@ -103,3 +103,7 @@ se aconsejan usar componentes reutilizables
 como pasar componentes de un padre a un hijo
 con el @input lo usamos como atributo en el componente hijo
 puedo exportar todas las interfazes que me sirvan
+
+output un componente hijo que quiere emitir al padre
+eventEmitter --> en de tipo generics
+output sirve para emitir eventos
