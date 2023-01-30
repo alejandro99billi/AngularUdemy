@@ -112,3 +112,12 @@ output sirve para emitir eventos
 como usar el debugger 
 
 el visual studio f5 --> google app cambiarle el puerto y  meter 4200 para inciarl el debug
+
+Los provadier son los servicios que viene instaciado como singleton
+el servicio no hace nada hasta que se llama su intanza
+angular sabe quando hay un servicio usado y reciben la informacion actualizado.
+cuando debo manipular data devo acerlo meiante el servicio
+
+private _thisPropietyIsPrivated
+
+operador ... tres puntos referencia https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Operators/Spread_syntax
