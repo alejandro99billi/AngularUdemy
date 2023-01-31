@@ -121,3 +121,12 @@ cuando debo manipular data devo acerlo meiante el servicio
 private _thisPropietyIsPrivated
 
 operador ... tres puntos referencia https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Operators/Spread_syntax
+
+------------------------------
+
+como hacer una buil de producion
+
+ng build --prod  --> esta deprecado se usa este ng build --configuration production
+la aplicaion se ecuentra en el min pero es recomendable usar la carga peresoza
+se carga mediante el protocolo http 
+para desplegar la aplicacion usamos netlify y solo metemos la directory que esta dentro del  disy
