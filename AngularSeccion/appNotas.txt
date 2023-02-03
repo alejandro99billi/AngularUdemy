@@ -135,3 +135,8 @@ para desplegar la aplicacion usamos netlify y solo metemos la directory que esta
 -------------------------
 creacion de la nueva app de parentises
 link della api https://restcountries.com/
+
+----------
+debemos trabajar con  Modulos
+componentes interfaces  pages services --> elementos de un componente en especifico
+el shared son modulos que tienen todos los componentes en comun 
