@@ -140,3 +140,10 @@ link della api https://restcountries.com/
 debemos trabajar con  Modulos
 componentes interfaces  pages services --> elementos de un componente en especifico
 el shared son modulos que tienen todos los componentes en comun 
+
+
+si yo creo un componente en angular puedo hacerlo asi ng g c pais/pages/porRegion
+y angular me crea el componente asi: por-region
+es decir el camelCase lo usa para separar las palabras
+
+
