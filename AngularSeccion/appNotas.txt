@@ -130,3 +130,8 @@ ng build --prod  --> esta deprecado se usa este ng build --configuration product
 la aplicaion se ecuentra en el min pero es recomendable usar la carga peresoza
 se carga mediante el protocolo http 
 para desplegar la aplicacion usamos netlify y solo metemos la directory que esta dentro del  disy
+
+
+-------------------------
+creacion de la nueva app de parentises
+link della api https://restcountries.com/
