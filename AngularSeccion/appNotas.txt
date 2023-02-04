@@ -199,3 +199,5 @@ routerLink="" --> ruta a la que voy
 routerLinkActive="active" -->> esta seleciona la clase si il router lo estoy usando
 
 devo cargar el routerModule cuantas vea sea necesaria
+
+para que un observable se dispare devo de tener al menos un suscriber
