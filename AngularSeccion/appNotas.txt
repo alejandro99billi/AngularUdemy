@@ -195,3 +195,5 @@ export class AppRoutingModule{
 
 --------------------
 
+routerLink="" --> ruta a la que voy 
+routerLinkActive="active" -->> esta seleciona la clase si il router lo estoy usando
