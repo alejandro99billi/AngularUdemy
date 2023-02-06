@@ -33,4 +33,8 @@ buscar(termino : string){
   );
 }
 
+sugerencias(termino: string){
+    this.hayError= false
+}
+
 }
