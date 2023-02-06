@@ -1,4 +1,4 @@
-import { Component, OnInit, Output, EventEmitter } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter, Input } from '@angular/core';
 import { debounceTime, Subject } from 'rxjs';
 
 @Component({
@@ -12,6 +12,7 @@ termino: string ='';
 
 @Output() onEnter: EventEmitter<string> = new EventEmitter;
 @Output() onDebounce : EventEmitter<string>= new EventEmitter;
+@Input() label : string= '';
 
 debouncer: Subject<string> = new Subject();
 buscar(){
