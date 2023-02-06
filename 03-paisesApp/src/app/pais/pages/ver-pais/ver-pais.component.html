@@ -21,8 +21,25 @@
             <strong>Poblacion</strong>
             {{ pais.population | number }}
           </li>
+          <li class="list-group-item">
+            <strong>Codigo Alpha3</strong>
+            {{ pais.alpha3Code }}
+          </li>
         </ul>
       </div>
     </div>
   </div>
+  <h3>Traduciones</h3>
+  <div class="col">
+    <span class="badge bg-primary mr-1"> {{ pais.translations.de }}</span>
+    <span class="badge bg-primary mr-1"> {{ pais.translations.fr }}</span>
+    <span class="badge bg-primary mr-1"> {{ pais.translations.ja }}</span>
+    <span class="badge bg-primary mr-1"> {{ pais.translations.br }}</span>
+    <span class="badge bg-primary mr-1"> {{ pais.translations.hr }}</span>
+    <span class="badge bg-primary mr-1"> {{ pais.translations.fa }}</span>
+  </div>
+
+  <!--   <pre class="mt-5">
+     {{ pais | json }}
+  </pre> -->
 </ng-template>
