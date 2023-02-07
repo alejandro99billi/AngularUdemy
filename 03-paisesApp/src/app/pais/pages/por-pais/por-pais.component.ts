@@ -14,6 +14,7 @@ export class PorPaisComponent implements OnInit {
   paises: Country[]=[];
   paisesSugeridos: Country[]=[];
   mostrarSugerencias: boolean = false;
+  
   constructor(private paisService : PaisService) { }
 
   ngOnInit(): void {
@@ -44,7 +45,7 @@ buscarSugerido(termino : string){
 
 sugerencias(termino: string){
     this.hayError= false
-
+   this.termino = termino;
     this.paisService.buscarPais(termino).subscribe(paises => this.paisesSugeridos = paises.splice(0,5) ,  (err)=> this.paisesSugeridos=[])
    
 }
