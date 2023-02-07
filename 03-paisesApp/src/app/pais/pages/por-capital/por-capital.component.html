@@ -1,16 +1,17 @@
-<h2>Por Capital</h2>
-<hr />
-
-<div class="row">
-  <div class="col">
-    <app-pais-input
-      (onEnter)="buscar($event)"
-      (onDebounce)="sugerencias($event)"
-      label="Por Capital..."
-    >
-    </app-pais-input>
+<div class="animate__animated animate__bounce">
+  <div class="row">
+    <div class="col">
+      <app-pais-input
+        (onEnter)="buscar($event)"
+        (onDebounce)="sugerencias($event)"
+        label="Por Capital..."
+      >
+      </app-pais-input>
+    </div>
   </div>
 </div>
+<h2>Por Capital</h2>
+<hr />
 
 <div class="alert alert-danger" *ngIf="hayError">
   No se econtre nada con el termino
