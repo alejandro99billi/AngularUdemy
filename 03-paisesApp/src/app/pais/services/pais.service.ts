@@ -10,7 +10,8 @@ import { Country } from '../pages/por-pais/interfaces/pais.interface';
 export class PaisService {
   
   private apiUrl: string = 'https://restcountries.com/v2/';
-  private apiUrlCapital: string = 'https://restcountries.com/v2/'
+  private apiUrlCapital: string = 'https://restcountries.com/v2/';
+
 
   constructor(private http:HttpClient) { }
 
@@ -28,6 +29,11 @@ export class PaisService {
 
   getPaisPorId(id: string){
     const url = `${this.apiUrl}/alpha/${id}`;
+    return this.http.get<Country[]>(url)
+  }
+
+  getPaisPorRegion(region: string){
+    const url = `${this.apiUrl}/regionalbloc/${region}`;
     return this.http.get<Country[]>(url)
   }
 }
