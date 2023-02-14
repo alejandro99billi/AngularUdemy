@@ -204,3 +204,16 @@ para que un observable se dispare devo de tener al menos un suscriber
 
 estudiar rjxs -->
  el uso del of que convierte un objeto en un observable 
+
+ ------------------------
+
+ pipesApp
+  existen varios pipes 
+  documentacion
+
+  https://angular.io/api?query=pipe
+
+https://primeng.org/ --> para ver estilos ya creados
+ los pipes tranforman informacion en el html 
+ los pipes nunca modifican la data.
+ 
